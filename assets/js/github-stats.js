@@ -3,13 +3,13 @@
  * Obtiene estadísticas de la cuenta de GitHub del usuario
  */
 
-const GITHUB_USERNAME = 'ncruz-dev';
-const GITHUB_API_BASE = 'https://api.github.com';
+// const GITHUB_USERNAME = 'ncruz-dev';
+// const GITHUB_API_BASE = 'https://api.github.com';
 
 /**
  * Obtiene las estadísticas de GitHub
  */
-async function getGitHubStats() {
+/*async function getGitHubStats() {
   try {
     // Obtener información del usuario
     const userResponse = await fetch(`${GITHUB_API_BASE}/users/${GITHUB_USERNAME}`);
@@ -65,7 +65,7 @@ async function getGitHubStats() {
     console.error('Error fetching GitHub stats:', error);
     return null;
   }
-}
+}*/
 
 /**
  * Actualiza los números en la página
